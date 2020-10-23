@@ -1,4 +1,4 @@
-$monospace-font: Menlo, Monaco, Consolas, "Courier New", monospace;
+$monospace-font: Menlo, Monaco, Consolas, 'Courier New', monospace;
 $line-space: 22px;
 
 .markdown-body {
@@ -70,8 +70,8 @@ $line-space: 22px;
     border-bottom: none;
     border-left: none;
     border-right: none;
-    margin-top: 2.7rem;
-    margin-bottom: 2.7rem;
+    margin-top: 32px;
+    margin-bottom: 32px;
   }
 
   code {
@@ -113,7 +113,7 @@ $line-space: 22px;
 
   table {
     display: inline-block !important;
-    font-size: 1rem;
+    font-size: 12px;
     width: auto;
     max-width: 100%;
     overflow: auto;
@@ -129,11 +129,11 @@ $line-space: 22px;
   }
   th,
   td {
-    padding: 1rem 0.6rem;
-    line-height: 2rem;
+    padding: 12px 7px;
+    line-height: 24px;
   }
   td {
-    min-width: 10rem;
+    min-width: 120px;
   }
 
   blockquote {
@@ -144,7 +144,7 @@ $line-space: 22px;
     background-color: #f8f8f8;
     &::after {
       display: block;
-      content: "";
+      content: '';
     }
     & > p {
       margin: 10px 0;
@@ -168,7 +168,7 @@ $line-space: 22px;
 
     ul,
     ol {
-      margin-top: 0.27rem;
+      margin-top: 3px;
     }
   }
   ol li {
