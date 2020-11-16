@@ -8,6 +8,8 @@
 
 将 **样式文件名** 修改为自己定义的主题名称： `juejin.scss` -> `cyanosis.scss`。
 
+最终提交 PR 时应只包含：主题样式文件、LICENSE 和 README.md 三个文件。
+
 ```js
 // index.js
 // 参数为样式文件
