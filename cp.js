@@ -1,4 +1,4 @@
 const copyFile = require('./tools/copyFile.js');
 
-// copyFile('cyanosis.scss', '../juejin-markdown-theme-cyanosis/');
-copyFile('psite.scss', '../juejin-markdown-theme-cyanosis/');
+// 注意更改文件名和仓库地址
+copyFile('juejin.scss', '../juejin-markdown-theme-cyanosis/');
