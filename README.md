@@ -1,7 +1,7 @@
 # juejin-theme
 掘金 markdown 主题开发工具
 
-如何贡献主题：https://github.com/linxsbox/juejin-markdown-themes
+如何贡献主题：https://github.com/xitu/juejin-markdown-themes
 
 ## 使用说明
 此工具为便于开发掘金 markdown 主题，可同步将样式（编译后）应用到到文章上。
