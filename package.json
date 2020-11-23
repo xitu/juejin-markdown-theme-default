@@ -1,0 +1,8 @@
+{
+  "name": "juejin-markdown-theme-default",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "bytemd": "^1.2.0"
+  }
+}
