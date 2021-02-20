@@ -163,6 +163,14 @@ $line-space: 22px;
   ol li {
     padding-left: 6px;
   }
+  
+  .contains-task-list {
+    padding-left: 0;
+  }
+
+  .task-list-item {
+    list-style: none;
+  }
 
   @media (max-width: 720px) {
     h1 {
