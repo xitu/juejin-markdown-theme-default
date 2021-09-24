@@ -4,5 +4,8 @@
   "license": "MIT",
   "dependencies": {
     "bytemd": "^1.2.0"
+  },
+  "scripts": {
+    "dev": "npx juejin-theme-devtool juejin.scss"
   }
 }
