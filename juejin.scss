@@ -1,4 +1,4 @@
-$monospace-font: Menlo, Monaco, Consolas, 'Courier New', monospace;
+$monospace-font: Menlo, Monaco, Consolas, "Courier New", monospace;
 $line-space: 22px;
 
 .markdown-body {
@@ -7,7 +7,7 @@ $line-space: 22px;
   font-weight: 400;
   font-size: 16px;
   overflow-x: hidden;
-  color: #333;
+  color: #252933;
 
   h1,
   h2,
@@ -22,22 +22,31 @@ $line-space: 22px;
   }
 
   h1 {
-    font-size: 24px;
+    font-size: 32px;
+    line-height: 48px;
     margin-bottom: 5px;
   }
-  h2, h3, h4, h5, h6 {
-    font-size: 20px;
-  }
   h2 {
+    font-size: 24px;
+    line-height: 38px;
     padding-bottom: 12px;
     border-bottom: 1px solid #ececec;
   }
   h3 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  h4 {
     font-size: 18px;
-    padding-bottom: 0;
+    line-height: 26px;
+  }
+  h5 {
+    font-size: 17px;
+    line-height: 24px;
   }
   h6 {
-    margin-top: 5px;
+    font-size: 16px;
+    line-height: 24px;
   }
 
   p {
@@ -130,7 +139,7 @@ $line-space: 22px;
     background-color: #f8f8f8;
     &::after {
       display: block;
-      content: '';
+      content: "";
     }
     & > p {
       margin: 10px 0;
@@ -160,7 +169,7 @@ $line-space: 22px;
   ol li {
     padding-left: 6px;
   }
-  
+
   .contains-task-list {
     padding-left: 0;
   }
